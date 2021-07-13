@@ -21,3 +21,15 @@ let camper = 'James';
 let camper = 'David';
 ```
 gives an error
+
+
+Var is declared globally unless inside of a function. 'Let' is global unless inside of a block, statement, or expression.
+```Javascript
+var numArray = [];
+for (var i = 0; i < 3; i++) {
+  numArray.push(i);
+}
+console.log(numArray);
+console.log(i);
+// outputs [0, 1, 2] and 3
+```
