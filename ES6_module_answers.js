@@ -10,4 +10,4 @@ function catTalk() {
 }
 catTalk();
 
-// 2.
+// 2. Compare Scopes of the var and let Keywords
